@@ -1,0 +1,2 @@
+module FarvoritesHelper
+end

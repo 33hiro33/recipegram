@@ -1,0 +1,302 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ @import "bulma";
+
+
+
+.title-1 {
+  font-size: 30px;
+}
+
+.title-2 {
+  font-size: 30px;
+}
+
+.title-3 {
+  font-size: 30px;
+}
+
+.title-4 {
+  font-size: 30px;
+}
+
+.title-5 {
+  font-size: 30px;
+}
+
+.title-6 {
+  font-size: 30px;
+}
+
+.title-7 {
+  font-size: 30px;
+}
+
+.title-8 {
+  font-size: 30px;
+}
+
+.title-9 {
+  font-size: 30px;
+}
+
+.title-10 {
+  font-size: 30px;
+}
+
+.title-11 {
+  font-size: 30px;
+}
+
+.title-12 {
+  font-size: 30px;
+}
+
+.title-13 {
+  font-size: 30px;
+}
+ 
+ .notification:not(:last-child){
+	margin-bottom: 0;
+}
+
+.profile_image {
+  border-radius: 50%;
+ }
+
+ .main-image {
+	 height: 900px;
+	 background-image: url(pasta2.jpg);
+   background-size: cover;
+	 margin-top: 30px;
+}
+
+.column.is-3 {
+ 
+}
+
+.navbar-item {
+	padding-left: 15px;
+}
+
+.section {
+	background-color: lightgoldenrodyellow;
+}
+
+.section-plus {
+	background-color: lightgoldenrodyellow;
+	padding-bottom: 15%;
+	padding-top: 50px;
+}
+
+.section-another {
+	background-color: lightgoldenrodyellow;
+	padding-bottom: 22%;
+	padding-top: 50px;
+}
+
+.actions {
+	margin-top: 18px;
+}
+
+.column-plus {
+	width: 10%;
+}
+
+$color:#ffdd57;
+
+@keyframes sheen {
+  0% {
+    transform: skewY(-45deg) translateX(0);
+  }
+  100% {
+    transform: skewY(-45deg) translateX(12.5em);
+  }
+}
+
+.button1 {
+  padding: 0.65em 2em;
+	text-align: center;
+	background-color:#fffbeb;
+  text-decoration: none;
+  color:black;
+  border: 3px solid $color;
+  display: inline-block;
+  border-radius: 0.3em;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+	overflow: hidden;
+	margin-bottom: 10px;
+  &:before {
+    content: "";
+    background-color: rgba(255,255,255,0.5);
+    height: 100%;
+    width: 3em;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -4.5em;
+    transform: skewX(-45deg) translateX(0);
+    transition: none;
+  }
+  &:hover {
+    background-color: $color;
+    color:black;
+    border-bottom: 4px solid darken($color, 10%);
+    &:before {
+      transform: skewX(-45deg) translateX(13.5em);
+     transition: all 0.5s ease-in-out;
+    }
+  }
+}
+
+.button2 {
+  padding: 0.65em 1.7em;
+	text-align: center;
+	background-color:#fffbeb;
+  text-decoration: none;
+  color:black;
+  border: 3px solid $color;
+  display: inline-block;
+  border-radius: 0.3em;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+	overflow: hidden;
+  &:before {
+    content: "";
+    background-color: rgba(255,255,255,0.5);
+    height: 100%;
+    width: 3em;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -4.5em;
+    transform: skewX(-45deg) translateX(0);
+    transition: none;
+  }
+  &:hover {
+    background-color: $color;
+    color:black;
+    border-bottom: 4px solid darken($color, 10%);
+    &:before {
+      transform: skewX(-45deg) translateX(13.5em);
+     transition: all 0.5s ease-in-out;
+    }
+  }
+}
+
+.button3 {
+	padding: 0.65em 2em;
+	margin-top: 10px;
+	text-align: center;
+	background-color:#fffbeb;
+  text-decoration: none;
+  color:black;
+  border: 3px solid $color;
+  display: inline-block;
+  border-radius: 0.3em;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+	overflow: hidden;
+  &:before {
+    content: "";
+    background-color: rgba(255,255,255,0.5);
+    height: 100%;
+    width: 3em;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -4.5em;
+    transform: skewX(-45deg) translateX(0);
+    transition: none;
+  }
+  &:hover {
+    background-color: $color;
+    color:black;
+    border-bottom: 4px solid darken($color, 10%);
+    &:before {
+      transform: skewX(-45deg) translateX(13.5em);
+     transition: all 0.5s ease-in-out;
+    }
+  }
+}
+
+
+.column.is-4 {
+  filter:drop-shadow(5px 5px 5px #4e4e4e);
+}
+
+.column.is-3 {
+  filter:drop-shadow(5px 5px 5px #4e4e4e);
+}
+
+.main-logo {
+  text-shadow:6px 8px 8px #32312b;
+  display: block;
+  font-size:6rem;
+  color:  #e2c12e;
+  margin: 0 auto;
+  position: relative; 
+  animation: anime1 7s ease infinite;
+}
+
+@keyframes anime1 {
+  0% {
+      opacity: 0;
+      top: 50px;
+  }
+  100% {
+      opacity: 1.3;
+      top: 0;
+  }
+}
+
+
+
+.title {
+  border-radius:  10%;
+  animation: anime 5s linear infinite;
+  position: relative;
+}
+
+@keyframes anime {
+  100% {
+      transform: rotate(360deg);
+  }
+  15% {
+      transform: rotate(360deg);
+  }
+}
+.title:before {
+  content: "";
+  display: block; 
+  border-radius: 10%;
+  margin: 0px auto;
+  position: relative;
+  top: 10px;
+}
+
+.media-content-z {
+ background-image: url("city.jpg");
+ background-size: cover;
+ background-repeat: round;
+ height: 465px;
+ flex-basis: auto;
+ flex-grow: 1;
+ flex-shrink: 1;
+ text-align: inherit;
+}
+
